@@ -1,6 +1,6 @@
-#define _CRT_SECURE_NO_WARNINGS // Исправлено: защита от ошибок безопасности scanf в Visual Studio
+
 #include <stdio.h>
-#include <stdlib.h>             // Для корректной работы abs(), если введут отрицательные числа
+#include <stdlib.h>            
 
 void task1();
 void task1a();
@@ -93,7 +93,7 @@ void task2() {
     
     printf("\n--- Задание 2 ---\n");
     x = a / b; 
-    y = (float)a / b; // Исправлено: добавлено явное приведение типов для точности
+    y = (float)a / b; 
     z = (double)a / b; 
     
     printf("a = %d, b = %d\n", a, b);
