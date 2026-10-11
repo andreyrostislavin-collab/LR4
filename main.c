@@ -54,7 +54,7 @@ float c = a -b;
 printf("Введем целую часть %d\n", b);
     printf("Введем дробную часть %.2f", c);
   return 0;
-}
+
 }
 
 void task1b() {
