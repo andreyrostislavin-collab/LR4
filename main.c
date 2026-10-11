@@ -48,16 +48,12 @@ void task1() {
 }
 
 void task1a() {
-    float num;
-    printf("\n--- Задание 1а ---\n");
-    printf("Введите вещественное число: ");
-    scanf("%f", &num);
-    
-    int integer_part = (int)num;          
-    float fractional_part = num - integer_part; 
-    
-    printf("Целая часть: %d\n", integer_part);
-    printf("Дробная часть: %f\n", fractional_part);
+    float a = 5.35;
+int b = (int) a;
+float c = a -b;
+printf("Введем целую часть %d\n", b);
+    printf("Введем дробную часть %.2f", c);
+  return 0;
 }
 
 void task1b() {
