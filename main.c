@@ -58,14 +58,12 @@ printf("Введем целую часть %d\n", b);
 }
 
 void task1b() {
-    char ch;
-    printf("\n--- Задание 1б ---\n");
-    printf("Введите символ: ");
-    scanf(" %c", &ch);
-    
-    printf("Символ: %c\n", ch);
+    char ch = '2';
     printf("Десятичный код: %d\n", ch);
     printf("Шестнадцатеричный код: %x\n", ch);
+    return 0;
+
+
 }
 
 void task1v() {
